@@ -1,0 +1,146 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #161616;
+    /*IFRAME TEXT COLOR*/
+    color: #dbdbdb;
+    font-family: Lucida Console;
+    box-sizing: border-box;
+    cursor: url(assets/images/cursor.png), auto;
+}
+/*Border-box allows box-sizing (width x height) to include padding and borders into its size, so that what you put is what you get. */
+
+/*NOT INDEX*/
+.page h1:first-child {
+    margin-top: 0;
+}
+
+/*INDEX*/
+iframe {
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+/*IFRAME BACKGROUND*/
+.page {
+    background-color: #161616;
+    padding: 24px;
+}
+
+/**/
+img {
+    max-width: 100%;
+}
+
+/* LINKS IN IFRAME */
+a {
+    color: #E1AD4A;
+    cursor: url(assets/images/pointer.png), pointer;
+}
+
+/*INDEX*/
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+/*INDEX*/
+.wrapper {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    margin-top: -200px;
+    width: 850px;
+    height: 400px;
+}
+
+/*INDEX*/
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+/*MAIN*/
+.main {
+    float: right;
+    width: 650px;
+    height: 100%;
+    border: 3px double #C82A72;
+    box-sizing: border-box;
+}
+
+.menu {
+    padding: 24px;
+    text-align: center;
+}
+
+/*SIDEBAR MENU LINKS*/
+.menu a {
+    display: inline-block;
+    padding: 3px 6px;
+    color: #C82A72;
+    margin-bottom: 6px;
+    text-decoration: underline;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*SIDEBAR MENU LINKS*/
+.menu a:hover {
+    background: #E1AD4A;
+    color: #4d4d4d;
+}
+
+.footer {
+    position:fixed;
+    bottom: 0;   
+}
+
+h3, h4 {
+    color: #C82A72;
+}
+
+h1 {
+    font-size: 20px;
+    color: #53b950;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #00698f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-bottom: 1px dashed #00698f;
+    padding-bottom: 4px;
+    margin-top: 2rem;
+}
+
+b {
+    color:#C82A72
+}
+
+.border {
+    padding: 2px;
+    border: 1px solid yellow;
+}
+
+th, td {
+    padding: 6px 12px;
+    vertical-align: top;
+}
+
+th {
+    background: yellow;
+    color: black;
+}
+
+.width-50 {
+    width: 50%;
+}
