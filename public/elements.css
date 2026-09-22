@@ -12,6 +12,11 @@
     color: #b08271;
     font-size: 12px;
 }
+
+.site-box .sitefeature {
+    display: none;
+}
+
 .site-box > a > p {
     color: var(--darkbrown);
     font-weight: bold;
