@@ -8,6 +8,7 @@
 .site-box {
     text-align: center;
     background-image: url(https://wherermysocks.nekoweb.org/wherermysocks.nekoweb.org/assets/images/sitebox.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 25px;
 }
