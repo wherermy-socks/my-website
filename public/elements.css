@@ -18,12 +18,12 @@
 }
 
 .site-box > a > p {
-    color: var(--pink);
-    font-weight: bold;
+    color: var(--darkpink);
+    font-weight: normal;
     font-family: Lucida Console;
 }
 .site-box > a > span {
-    color: var(--darkpink);
+    color: var(--pink);
     font-family: Lucida Console;
 }
 
