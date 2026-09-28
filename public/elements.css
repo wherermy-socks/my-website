@@ -28,10 +28,12 @@
     font-family: Lucida Console;
 }
 
+/*THIS IS THE [+] BUTTON, GOTTA FIX IT LATER
+
 .site-box .follow {
     background-image: url(https://wherermysocks.nekoweb.org/wherermysocks.nekoweb.org/assets/images/favicon.gif)
     background-size: contain;
-}
+}*/
 
 /* Style for your post box (must start with ".post-box") */
 .post-box {
