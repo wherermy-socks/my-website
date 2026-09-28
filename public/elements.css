@@ -5,6 +5,7 @@
 */
 
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
+/*THIS IS WHERE THE ACTUAL DECORATIVE IMAGE GOES*/
 .site-box {
     text-align: center;
     background-image: url(https://wherermysocks.nekoweb.org/wherermysocks.nekoweb.org/assets/images/sitebox.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
@@ -13,16 +14,20 @@
     border-radius: 25px;
 }
 
+/*REMOVES SITE PREVIEW*/
 .site-box .sitefeature {
   display: none;
 }
 
+/*THIS IS THE SITE TITLE TAG IN INDEX FILE*/
 .site-box > a > p {
     color: var(--darkpink);
     font-weight: normal;
     font-size: small;
     font-family: Lucida Console;
 }
+
+/*THIS IS THE SITE URL THAT APPEARS IN BOX*/
 .site-box > a > span {
     color: var(--pink);
     font-family: Lucida Console;
