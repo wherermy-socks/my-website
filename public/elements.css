@@ -20,13 +20,16 @@
 .site-box > a > p {
     color: var(--pink);
     font-weight: bold;
+    font-family: Lucida Console;
 }
 .site-box > a > span {
     color: var(--darkpink);
+    font-family: Lucida Console;
 }
 
-.site-box .site-follow {
+.site-box .follow {
     background-image: url(https://wherermysocks.nekoweb.org/wherermysocks.nekoweb.org/assets/images/favicon.gif)
+    background-size: contain;
 }
 
 /* Style for your post box (must start with ".post-box") */
