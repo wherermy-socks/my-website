@@ -7,13 +7,13 @@
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
 .site-box {
     text-align: center;
-    background-image: url(https://wherermysocks.nekoweb.org/assets/images/sitebox.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
+    background-image: url(/assets/images/sitebox.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
     background-repeat: no-repeat;
     border-radius: 25px;
 }
 
-.sitebox .sitefeature {
-    display: none;
+.site-box .sitefeature {
+  display: none;
 }
 
 .site-box > a > p {
@@ -22,6 +22,10 @@
 }
 .site-box > a > span {
     color: var(--darkpink);
+}
+
+.site-box .site-follow {
+    background-image: url(assets/images/favicon.gif)
 }
 
 /* Style for your post box (must start with ".post-box") */
