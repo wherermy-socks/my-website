@@ -20,6 +20,7 @@
 .site-box > a > p {
     color: var(--darkpink);
     font-weight: normal;
+    font-size: small;
     font-family: Lucida Console;
 }
 .site-box > a > span {
