@@ -19,6 +19,22 @@ body, html {
   width: 80%;
 }
 
+.AUs {
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.AUs h1 {
+    color: #E1AD4A;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /*NOT INDEX*/
 .page h1:first-child {
     margin-top: 0;
