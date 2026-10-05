@@ -168,4 +168,5 @@ iframe {
 .AUs img {
     max-width: 70%;
     height: auto;
+    border-radius: 25px;
 }
