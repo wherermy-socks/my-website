@@ -162,3 +162,10 @@ iframe {
     height: auto;
     border-radius: 25px;
 }
+
+.media img {
+    max-width: 10%;
+    height: auto;
+    display: inline;
+    padding: 3px;
+}
