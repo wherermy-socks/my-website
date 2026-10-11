@@ -167,17 +167,16 @@ iframe {
 
 /*AUs*/
 
-.AUs {
-    text-align: center;
-    display: block; 
-    margin: auto;
-    width: 80%;
-}
-
 .AUs img {
     max-width: 70%;
     height: auto;
     border-radius: 25px;
+}
+
+.AUs summary {
+    padding: 7px;
+    text-transform: capitalize;
+    text-decoration-color: #E1AD4A;
 }
 
 .media img {
