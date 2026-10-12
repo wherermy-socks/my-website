@@ -104,6 +104,19 @@ b {
     display: inline;
 }
 
+.button {
+    position: fixed;
+    padding: 5px;
+    top: 0;
+}
+
+.button img {
+    display: inline;
+    border-radius: 0px;
+    float: left;
+}
+
+
 /*second level*/
 .sidebar {
     float: left;   
