@@ -91,6 +91,7 @@ b {
 
 .footer img {
     float: left;
+    border-radius: 0px;
 }
 
 .bubble {
