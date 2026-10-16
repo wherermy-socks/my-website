@@ -193,6 +193,10 @@ iframe {
     text-decoration-color: #E1AD4A;
 }
 
+.AUs td {
+    width: 50%;
+}
+
 .media img {
     max-width: 10%;
     height: auto;
