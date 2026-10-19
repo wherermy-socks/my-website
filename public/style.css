@@ -24,10 +24,15 @@ body, html {
     box-sizing: border-box;
     /*Border-box allows box-sizing (width x height) to include padding and borders into its size, so that what you put is what you get. */
     cursor: url(assets/images/cursor.png), auto;
+
 }
 
 a {
     color: #E1AD4A;
+    cursor: url(assets/images/pointer.png), pointer;
+}
+
+details {
     cursor: url(assets/images/pointer.png), pointer;
 }
 
@@ -83,29 +88,37 @@ b {
 }
 
 .footer {
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    float: left;
-}
-
-.footer img {
-    float: left;
-    border-radius: 0px;
-}
-
-.bubble {
     position: fixed;
     width: 100%;
     bottom: 0;
-    text-align: right;
+    text-align: left;
 }
 
-.bubble img {
+.footer div {
+    float: left;
     display: inline;
 }
 
+.fotter a{
+    cursor: url(assets/images/pointer.png), pointer;
+}
+
+.buttonsbox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.buttonsbox img {
+    float: right;
+    border-radius: 0px;
+}
+
 .button {
+    text-align: right;
+    display: inline;
     position: fixed;
     padding: 5px;
     top: 0;
@@ -117,6 +130,12 @@ b {
     float: left;
 }
 
+.bubble {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+}
 
 /*second level*/
 .sidebar {
