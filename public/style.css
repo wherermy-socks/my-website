@@ -74,6 +74,15 @@ img {
     border-radius:25px;
 }
 
+summary {
+    color: #00698f;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-bottom: 1px dashed #00698f;
+    padding-bottom: 4px;
+    margin-top: 2rem;
+}
+
 /*bold*/
 b {
     color:#C82A72
@@ -87,23 +96,21 @@ b {
     height: 40%;
 }
 
-.footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.mybutton {
     text-align: left;
+    position: fixed;
+    top: 0;
+    padding: 5px;
 }
 
-.footer div {
-    float: left;
+.mybutton img {
     display: inline;
+    border-radius: 0px;
+    float: left;
 }
 
-.fotter a{
-    cursor: url(assets/images/pointer.png), pointer;
-}
-
-.buttonsbox {
+.webringbox {
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -111,23 +118,30 @@ b {
     text-align: right;
 }
 
-.buttonsbox img {
+.webringbox img {
     float: right;
     border-radius: 0px;
 }
 
-.button {
-    text-align: right;
-    display: inline;
-    position: fixed;
-    padding: 5px;
-    top: 0;
+.webringbox div{
+    float: right;
 }
 
-.button img {
-    display: inline;
-    border-radius: 0px;
+.buttons {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: left;
+    padding: 5px;
+}
+
+.buttons img{
     float: left;
+    border-radius: 0%;
+}
+
+.buttons a{
+    cursor: url(assets/images/pointer.png), pointer;
 }
 
 .bubble {
